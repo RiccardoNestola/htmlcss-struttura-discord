@@ -7,7 +7,6 @@
 header{
     margin: 0 auto;
     width:100%;
-    /* border: 1px solid red; */
     
 }
 
@@ -18,7 +17,6 @@ button{
 
 .container{
     background: url(../img/jumbo.png) no-repeat center center; background-size:cover;
-    /* border: 1px solid red; */
     height: 500px;
 }
 
@@ -54,7 +52,7 @@ div.intro{
 
 .intro > h1 , p {
     color: white;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 div.section{
@@ -84,7 +82,7 @@ div.text{
     
 }
      */
-     
+
 .description {
     padding-top: 2rem;
     text-align: center;
@@ -104,3 +102,79 @@ div.text{
 }
 
 
+.flex_footer{
+    display: flex;
+}
+
+
+footer{
+    margin-top: 3rem;
+    width:100%;
+    height: 600px;
+    background-color: #23272A;
+    padding: 3rem 12rem;
+}
+
+
+footer p,ul li{
+    color:#ffffff;
+}
+
+
+
+
+footer h3{
+    color:#7289DA;
+}
+
+.social_menu ,
+.product_menu ,
+.company_menu ,
+.resurces_menu ,
+.name_menu {
+
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.flex_ul li {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social_menu {
+    width: 40%;
+    align-items: flex-start;
+}
+
+
+.product_menu {
+    width: 15%;
+    
+    
+}
+
+.company_menu {
+    width: 15%;
+    
+}
+
+.resurces_menu {
+    width: 15%;
+    
+}
+
+.name_menu {
+    width: 15%;
+    
+}
+
+
+div.sub_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
