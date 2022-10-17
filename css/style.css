@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0 auto;
+    width:100%;
+    /* border: 1px solid red; */
+    
+}
+
+
+.container{
+    background: url(../img/jumbo.png) no-repeat center center; background-size:cover;
+    /* border: 1px solid red; */
+    height: 600px;
+}
+
+nav.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
