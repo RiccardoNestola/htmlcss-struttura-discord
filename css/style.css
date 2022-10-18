@@ -78,10 +78,11 @@ div.text{
 
 }
 
-/* div.bg {
+div.bg {
+    background-color: #F6F6F6;
     
 }
-     */
+    
 
 .description {
     padding-top: 2rem;
@@ -135,6 +136,7 @@ footer h3{
 
     flex-direction: column;
     margin: 1rem;
+    width: 15%;
 }
 
 
@@ -147,34 +149,17 @@ footer h3{
 .social_menu {
     width: 40%;
     align-items: flex-start;
-}
-
-
-.product_menu {
-    width: 15%;
-    
     
 }
 
-.company_menu {
-    width: 15%;
-    
+hr{
+    width: 100%;
+    border: 0.5px solid #7289DA;
 }
-
-.resurces_menu {
-    width: 15%;
-    
-}
-
-.name_menu {
-    width: 15%;
-    
-}
-
 
 div.sub_footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 }
